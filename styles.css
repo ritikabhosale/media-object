@@ -1,0 +1,48 @@
+body {
+width: 60em;
+margin: 0 auto;
+line-height: 1.5em;
+font-family: sans-serif
+}
+
+* {
+    margin: 0em;
+}
+
+.media-object {
+    width: 31.25em;
+    margin: 0em auto;
+    display: flex;
+    flex-direction: column;
+    border: 0.06em solid gray;
+    border-radius: 0.65em;
+    gap: 1.25em;
+}
+
+.media-object .main-content {
+    display: flex;
+    gap: 1.25em;
+    padding: 1.25em;
+}
+
+.media-object figure {
+    height: 6.25em;
+    width: 6.25em;
+}
+
+.media-object img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.main-content h2{
+    margin-bottom: 0.63em;
+} 
+
+footer {
+    flex-grow: 1;
+    padding: 0.62em;
+    background-color: rgb(182, 180, 180, 0.2);
+    font-weight: 100;
+    overflow: hidden;
+}
